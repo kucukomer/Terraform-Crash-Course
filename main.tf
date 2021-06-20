@@ -105,7 +105,7 @@ variable "subnet_prefix" {
    }
  }
 
- # 7. Create a network interface with an ip in the subnet that was created in step 4
+ # 7. Create a network interface with an ip in the subnet that was created in step 4 bla bla
  # ${count.index}
 
  resource "aws_network_interface" "web-server-nic" {
